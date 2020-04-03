@@ -1,0 +1,16 @@
+.circle{
+    width: 40vh;
+    height: 40vh;
+    background-color: aqua;
+    border-radius: 50%;
+    border-bottom: 120px solid red;
+    border-left: 120px solid orange;
+    border-right: 120px solid blue;
+    border-top: 120px solid green;
+    margin: 0 auto;
+    transition: all 5000ms ease;   
+}
+
+.circle:hover{
+    transform: rotate(3690deg) scale(0);
+}
