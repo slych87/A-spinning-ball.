@@ -1,7 +1,7 @@
 .circle{
     width: 40vh;
     height: 40vh;
-    background-color: aqua;
+    background-color: white;
     border-radius: 50%;
     border-bottom: 120px solid red;
     border-left: 120px solid orange;
@@ -11,6 +11,21 @@
     transition: all 5000ms ease;   
 }
 
-.circle:hover{
-    transform: rotate(3690deg) scale(0);
+.active{
+    transform: rotate(3690deg);
+    border-bottom-color: yellow;
+    border-left-color: darkgreen;
+    border-right-color: cadetblue;
+    border-top-color: crimson;
+    background-color: black;
+}
+
+button{
+    background-color: brown;
+    color: white;
+    width: 200px;
+    height: 30px;
+    display: block;
+    margin: 20px auto;
+    border: none;
 }

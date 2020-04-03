@@ -8,5 +8,13 @@
 </head>
 <body>
     <div class="circle"></div>
+    <button>Zakręć</button>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $('button').on('click',function(){
+            $('.circle').toggleClass('active');
+            console.log('jest ok');
+        })
+    </script>
 </body>
 </html>
